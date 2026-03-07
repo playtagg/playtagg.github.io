@@ -1,0 +1,67 @@
+.controller.custom{
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+  width: 512px;
+  height: 512px;
+  background: url(png/SMX_spritesheet.png) left center;
+  animation: play 3.34s steps(59) infinite;
+}
+
+@keyframes play {
+  100% { background-position: -30208px; }
+}
+
+.custom .button,
+.custom .back,
+.custom .bumper,
+.custom .trigger-button{
+    position: absolute;
+    width: 512px;
+    height: 512px;
+}
+
+/*
+FSR Mini Pad mapping:
+  B0 = Left
+  B1 = Right
+  B2 = Down
+  B3 = Up
+
+Gamepad Viewer button classes:
+  .a      = B0  → Left
+  .b      = B1  → Right
+  .x      = B2  → Down
+  .y      = B3  → Up
+*/
+
+/* Left (B0) */
+.custom .a.pressed{
+background: url(png/SMX_spritesheet_Blue.png);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+/* Right (B1) */
+.custom .b.pressed{
+background: url(png/SMX_spritesheet_Blue.png);
+}
+
+/* Down (B2) */
+.custom .x.pressed{
+background: url(png/SMX_spritesheet_Pink.png);
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+/* Up (B3) */
+.custom .y.pressed{
+background: url(png/SMX_spritesheet_Pink.png);
+}
+
+/* NOTE: You NEED to set this to exactly half the height of what is listed 
+for '.controller.custom' so when your skin is activated via player selection
+parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
+centered on screen. */
+.custom.half{
+    margin-top: -256px;
+}
