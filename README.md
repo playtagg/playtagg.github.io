@@ -1,4 +1,4 @@
-# [Pete-Lawrence.github.io](https://pete-lawrence.github.io)
+# [playtagg.github.io](https://playtagg.github.io)
 # [StepManiaX](https://pete-lawrence.github.io/smx)
 
 StepManiaX skin for Mr McPowned's Gamepad Viewer by [Peter Lawrence aka MegaSphere](https://www.youtube.com/c/PeterLawrenceYT/videos) for OBS.
