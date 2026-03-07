@@ -1,7 +1,7 @@
 # [playtagg.github.io](https://playtagg.github.io)
 # [StepManiaX](https://pete-lawrence.github.io/smx)
 
-StepManiaX skin for Mr McPowned's Gamepad Viewer by [Peter Lawrence aka MegaSphere](https://www.youtube.com/c/PeterLawrenceYT/videos) for OBS.
+StepManiaX skin for Mr McPowned's Gamepad Viewer by [Peter Lawrence aka MegaSphere](https://www.youtube.com/c/PeterLawrenceYT/videos) for OBS. Modified for the FSR Mini Pad from DDREXP.
 
 Designed for use with my idle and pressed GIFs here:
 * [Idle SMX GIF](https://github.com/Pete-Lawrence/Peters-Noteskins/blob/main/SMX-gifs/smx-idle.gif)
