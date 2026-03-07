@@ -21,63 +21,41 @@
 }
 
 /*
-Comments refer to numpad notation.
+FSR Mini Pad mapping:
+  B0 = Left
+  B1 = Right
+  B2 = Down
+  B3 = Up
 
- 7 8 9
- 4 5 6
- 1 2 3
-
+Gamepad Viewer button classes:
+  .a      = B0  → Left
+  .b      = B1  → Right
+  .x      = B2  → Down
+  .y      = B3  → Up
 */
 
-/*1*/
-.custom .trigger-button.left.pressed{
-background: url(png/SMX_spritesheet_DownLeft.png);
-}
-
-/*2*/
-.custom .trigger-button.right.pressed{
-background: url(png/SMX_spritesheet_Pink.png);
-    -webkit-transform: rotateX(180deg);
-    transform: rotateX(180deg);
-}
-
-/*3*/
-.custom .back.pressed{
-background: url(png/SMX_spritesheet_DownRight.png);
-}
-
-/*4*/
-.custom .y.pressed{
+/* Left (B0) */
+.custom .a.pressed{
 background: url(png/SMX_spritesheet_Blue.png);
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 
-/*5*/
-/* Commented out for metal centre panel.
-.custom .bumper.left.pressed{
-background: url(png/SMX_spritesheet_Green.png);
-}
-*/
-
-/*6*/
-.custom .bumper.right.pressed{
+/* Right (B1) */
+.custom .b.pressed{
 background: url(png/SMX_spritesheet_Blue.png);
 }
 
-/*7*/
-.custom .a.pressed{
-background: url(png/SMX_spritesheet_UpLeft.png);
-}
-
-/*8*/
-.custom .b.pressed{
-background: url(png/SMX_spritesheet_Pink.png);
-}
-
-/*9*/
+/* Down (B2) */
 .custom .x.pressed{
-background: url(png/SMX_spritesheet_UpRight.png);
+background: url(png/SMX_spritesheet_Pink.png);
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+/* Up (B3) */
+.custom .y.pressed{
+background: url(png/SMX_spritesheet_Pink.png);
 }
 
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
